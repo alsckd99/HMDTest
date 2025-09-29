@@ -7,14 +7,14 @@
 ### 1. Git 저장소 복제
 먼저, 아래 명령어를 사용하여 프로젝트 파일을 로컬 컴퓨터로 복제합니다.
 ```bash
-git clone [https://github.com/alsckd99/HMDTest.git](https://github.com/alsckd99/HMDTest.git)
+git clone https://github.com/alsckd99/HMDTest.git
 ```
 
 ### 2. Conda 가상환경 생성
 프로젝트 실행을 위한 별도의 가상환경을 만듭니다. Python 버전은 3.10으로 설정합니다.
 
 ```bash
-conda create -n hmdtest python=3.10
+conda create -n hmdtest python==3.10
 ```
 생성 후에는 아래 명령어로 가상환경을 활성화해주세요.
 ```bash
