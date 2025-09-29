@@ -4,10 +4,17 @@ HMDTest 설치 가이드
 설치 과정
 1. Git 저장소 복제
 먼저, 아래 명령어를 사용하여 프로젝트 파일을 로컬 컴퓨터로 복제합니다.
+# HMDTest 설치 가이드
 
-Bash
+이 문서는 HMDTest 프로젝트를 설정하고 실행하는 데 필요한 단계를 안내합니다.
 
-git clone https://github.com/alsckd99/HMDTest.git
+## 설치 과정
+
+### 1. Git 저장소 복제
+먼저, 아래 명령어를 사용하여 프로젝트 파일을 로컬 컴퓨터로 복제합니다.
+```bash
+git clone [https://github.com/alsckd99/HMDTest.git](https://github.com/alsckd99/HMDTest.git)
+
 2. Conda 가상환경 생성
 프로젝트 실행을 위한 별도의 가상환경을 만듭니다. Python 버전은 3.10으로 설정합니다.
 
